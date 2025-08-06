@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asra_portfolio/static/css/main.ea486c74.css",
+    "main.js": "/asra_portfolio/static/js/main.6f9f481e.js",
+    "static/media/thumb.png": "/asra_portfolio/static/media/thumb.dc90757028b175fe48dd.png",
+    "static/media/page3.png": "/asra_portfolio/static/media/page3.a73543090d224e57007c.png",
+    "static/media/page2.png": "/asra_portfolio/static/media/page2.8fb2ffbc55cfc953d705.png",
+    "static/media/FrontD.jpg": "/asra_portfolio/static/media/FrontD.dcd7da532b3233301359.jpg",
+    "static/media/backD.jpg": "/asra_portfolio/static/media/backD.16cf79c6d58d99c08ed2.jpg",
+    "static/media/ux-ui.jpg": "/asra_portfolio/static/media/ux-ui.e8734cf074b9ec5a185e.jpg",
+    "static/media/logo.png": "/asra_portfolio/static/media/logo.2da39ea8976c34b93c77.png",
+    "static/media/profile.png": "/asra_portfolio/static/media/profile.dcc0a61e697ff2cdfdb5.png",
+    "static/media/tccoe.png": "/asra_portfolio/static/media/tccoe.3e799c698220d1ab5c15.png",
+    "static/media/innokubed.png": "/asra_portfolio/static/media/innokubed.4af7b573bf6e6f787831.png",
+    "index.html": "/asra_portfolio/index.html",
+    "main.ea486c74.css.map": "/asra_portfolio/static/css/main.ea486c74.css.map",
+    "main.6f9f481e.js.map": "/asra_portfolio/static/js/main.6f9f481e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea486c74.css",
+    "static/js/main.6f9f481e.js"
+  ]
+}
