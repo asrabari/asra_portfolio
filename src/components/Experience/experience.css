@@ -1,0 +1,88 @@
+#experience {
+  width: 100vw;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.experienceTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.experienceBars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experienceBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(132, 167, 161);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.experienceBar:hover {
+  background-color: transparent;
+  border: 2px solid rgb(132, 167, 161);
+}
+
+.experienceBarImg {
+  height: 5rem;
+  width: 5rem;
+  object-fit: contain;
+  margin-right: 1.5rem;
+}
+
+.experienceBarText {
+  flex: 1;
+  text-align: left;
+}
+
+.experienceBarText h3 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.experienceBarText p {
+  font-size: 1.5rem;
+  color: #d9d9d9;
+}
+
+.experienceDate {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .experienceBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experienceDate {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+  }
+
+  .experienceBarImg {
+    height: 2.25rem;
+    width: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+}

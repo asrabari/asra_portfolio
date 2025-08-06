@@ -1,0 +1,125 @@
+.projectsSection {
+  background-color: var(--bg-color);
+  padding: 4rem 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.projectTitle {
+  font-size: 3.5rem; /* Big like Experience title */
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.projectCard {
+  background-color: var(--accent-color);
+  border: 3px solid transparent;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.projectCard:hover {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--text-color);
+}
+
+.projectImg {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.projectCard h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.projectCard p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Light Mode Overrides */
+body.cream-mode .projectsSection {
+  background-color: #F5F3EF;
+  color: black;
+}
+
+body.cream-mode .projectTitle {
+  color: black;
+}
+
+body.cream-mode .projectCard {
+  background-color: #AC87C5;
+  color: black;
+}
+
+body.cream-mode .projectCard h3,
+body.cream-mode .projectCard p {
+  color: black;
+}
+
+body.cream-mode .projectCard:hover {
+  background-color: transparent;
+  border: 2px solid #AC87C5;
+  color: black;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .projectCard {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .projectImg {
+    height: 180px;
+  }
+
+  .projectCard h3 {
+    font-size: 1.3rem;
+  }
+
+  .projectCard p {
+    font-size: 0.9rem;
+  }
+
+  .projectTitle {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,91 @@
+.socialSidebar {
+  position: fixed;
+  top: 40%;
+  left: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  z-index: 10;
+}
+
+/* Vertical line before and after */
+.socialLine {
+  width: 2px;
+  height: 80px;
+  background-color: var(--sidebar-line);
+  opacity: 0.4;
+}
+
+/* Social icon container */
+.sidebarIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* Icon size and hover */
+.socialSidebar img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+  animation: pulse 2s infinite;
+  filter: brightness(100%);
+  cursor: pointer;
+}
+
+.socialSidebar img:hover {
+  transform: scale(1.15);
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipText {
+  visibility: hidden;
+  width: max-content;
+  background-color: #84A7A1;
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  position: absolute;
+  left: 120%;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}
+
+.socialLine {
+  width: 2px;
+  height: 80px;
+  background-color: var(--sidebar-line);
+  opacity: 0.4;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,22 @@
+.themeToggleBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--accent-color);
+  border: none;
+  padding: 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.themeToggleBtn:hover {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  transform: scale(1.1);
+}
+
+.themeIcon {
+  width: 30px;
+  height: 30px;
+}
